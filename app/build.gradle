@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        applicationId "com.bt.printer"
+        minSdkVersion 18
+        targetSdkVersion 28
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    allprojects {
+        repositories {
+            google()
+            jcenter()
+        }
+    }
+
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'x86', 'armeabi-v7a'
+            universalApk false
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:support-v4:28+'
+    implementation files('libs/BtPrinter-Ver20190118.jar')
+}
+

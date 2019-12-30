@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BT打印机</string>
+    <string name="send">打印样单</string>
+    <string name="not_connected">没有连接</string>
+    <string name="bt_not_enabled_leaving">bt_not_enabled_leaving.</string>
+    <string name="title_connecting">正在连接中......</string>
+    <string name="title_connected_to">已连接设备: </string>
+    <string name="title_not_connected">没有连接设备</string>
+    <!--  DeviceListActivity -->
+    <string name="scanning">正在扫描中......</string>
+    <string name="select_device">设备选择</string>
+    <string name="none_paired">没有配对</string>
+    <string name="none_found">没有找到设备</string>
+    <string name="title_paired_devices">已配对设备</string>
+    <string name="title_other_devices">其他设备</string>
+    <string name="button_scan">扫描</string>
+    <!-- Options Menu -->
+    <string name="connect">connect</string>
+    <string name="discoverable">discoverable</string>
+    <string name="testtext">QR386 PRINTTEXT</string>
+    <string name="doubleheight">DoubleHeight</string>
+    <string name="doublewidth">DoubleWidth</string>
+    <string name="FontBold">FontBold</string>
+    <string name="FontUnderLine">FontUnderLine</string>
+    <string name="Position">Position</string>
+    <string name="Rotation">Rotation</string>
+    <string name="PrintNum">样单数：</string>
+    <string name="action_settings">设置</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>
