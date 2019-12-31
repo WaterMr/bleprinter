@@ -272,8 +272,7 @@ public class MainActivity extends Activity {
     public void printebmpData() {
         if (isConnected) {
 
-//            Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.test);
-            Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.test2);
+            Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.test);
 
             ArrayList<byte[]> data = new ArrayList<byte[]>();
             byte[] wakeup = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};

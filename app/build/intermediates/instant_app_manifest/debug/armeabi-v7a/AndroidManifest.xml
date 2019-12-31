@@ -49,8 +49,7 @@
         <activity
             android:name="com.bt.demo.DeviceListActivity"
             android:configChanges="orientation|keyboardHidden"
-            android:label="@string/select_device"
-            android:theme="@android:style/Theme.Dialog" />
+            android:label="@string/select_device" />
     </application>
 
 </manifest>

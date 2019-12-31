@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Dec 30 20:00:27 CST 2019
+#Mon Dec 30 21:59:51 CST 2019
 2.base=/Users/chenwangjun/demos/android/bleprinter/app/build/intermediates/transforms/mergeJniLibs/debug/0
 0.path=lib/x86/libCode.so
 2.baseType=DIRECTORY

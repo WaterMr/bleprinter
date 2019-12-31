@@ -133,13 +133,11 @@ ADDED from /Users/chenwangjun/demos/android/bleprinter/app/src/main/AndroidManif
 	android:name
 		ADDED from /Users/chenwangjun/demos/android/bleprinter/app/src/main/AndroidManifest.xml:38:27-74
 activity#com.bt.demo.DeviceListActivity
-ADDED from /Users/chenwangjun/demos/android/bleprinter/app/src/main/AndroidManifest.xml:41:9-45:59
+ADDED from /Users/chenwangjun/demos/android/bleprinter/app/src/main/AndroidManifest.xml:41:9-45:15
 	android:label
 		ADDED from /Users/chenwangjun/demos/android/bleprinter/app/src/main/AndroidManifest.xml:44:13-50
 	android:configChanges
 		ADDED from /Users/chenwangjun/demos/android/bleprinter/app/src/main/AndroidManifest.xml:43:13-63
-	android:theme
-		ADDED from /Users/chenwangjun/demos/android/bleprinter/app/src/main/AndroidManifest.xml:45:13-56
 	android:name
 		ADDED from /Users/chenwangjun/demos/android/bleprinter/app/src/main/AndroidManifest.xml:42:13-58
 uses-sdk
